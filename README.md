@@ -2,7 +2,7 @@
 
 <div align="center">  
 
-<img src="https://ws4.sinaimg.cn/large/006tNbRwly1fylahz0rrgj30p008ca9x.jpg"  /> 
+<img src="https://i.loli.net/2020/02/21/rfOGvKlTcHCmM92.png"  /> 
 <br/>
 
 [![Build Status](https://img.shields.io/badge/cim-cross--im-brightgreen.svg)](https://github.com/crossoverJie/cim)
@@ -35,7 +35,7 @@
 | YouTube | Bilibili|
 | :------:| :------: | 
 | [群聊](https://youtu.be/_9a4lIkQ5_o) [私聊](https://youtu.be/kfEfQFPLBTQ) | [群聊](https://www.bilibili.com/video/av39405501) [私聊](https://www.bilibili.com/video/av39405821) | 
-| <img src="https://ws3.sinaimg.cn/large/006tNbRwly1fys8flaofrj315e0ose81.jpg"  height="295px" />  | <img src="https://ws4.sinaimg.cn/large/006tNbRwly1fys8mpa6wij31240lghdt.jpg" height="295px" />
+| <img src="https://i.loli.net//2019//05//08//5cd1d9e788004.jpg"  height="295px" />  | <img src="https://i.loli.net//2019//05//08//5cd1da2f943c5.jpg" height="295px" />
 
 
 ## TODO LIST
@@ -61,7 +61,7 @@
 
 ## 系统架构
 
-![](https://ws1.sinaimg.cn/large/006tNbRwly1fyldgiizhuj315o0r4n0k.jpg)
+![](https://i.loli.net/2019/05/08/5cd1d45a156f1.jpg)
 
 - `CIM` 中的各个组件均采用 `SpringBoot` 构建。
 -  采用 `Netty` 构建底层通信。
@@ -85,7 +85,7 @@
 
 ## 流程图
 
-![](https://ws1.sinaimg.cn/large/006tNbRwly1fylfxevl2ij30it0etaau.jpg)
+![](https://i.loli.net/2019/05/08/5cd1d45b982b3.jpg)
 
 - 客户端向 `route` 发起登录。
 - 登录成功从 `Zookeeper` 中选择可用 `IM-server` 返回给客户端，并保存登录、路由信息到 `Redis`。
@@ -190,7 +190,7 @@ java -jar cim-client-1.0.0-SNAPSHOT.jar --server.port=8084 --cim.user.id=上方�
 
 ### 聊天记录查询
 
-![](https://ws2.sinaimg.cn/large/006tNc79gy1fz3uwmb5hsj30s8046wm3.jpg)
+![](https://i.loli.net/2019/05/08/5cd1c310cb796.jpg)
 
 使用命令 `:q 关键字` 即可查询与个人相关的聊天记录。
 
@@ -200,7 +200,7 @@ java -jar cim-client-1.0.0-SNAPSHOT.jar --server.port=8084 --cim.user.id=上方�
 
 ### AI 模式
 
-![](https://ws3.sinaimg.cn/large/006tNc79gy1fz3vf3nsq3j31dc0j01ky.jpg)
+![](https://i.loli.net/2019/05/08/5cd1c30e47d95.jpg)
 
 使用命令 `:ai` 开启 AI 模式，之后所有的消息都会由 `AI` 响应。
 
@@ -208,7 +208,7 @@ java -jar cim-client-1.0.0-SNAPSHOT.jar --server.port=8084 --cim.user.id=上方�
 
 ### 前缀匹配用户名
 
-![](https://ws4.sinaimg.cn/large/006tNc79gy1fz3vo4tgkjj31ni09s41u.jpg)
+![](https://i.loli.net/2019/05/08/5cd1c32ac3397.jpg)
 
 使用命令 `:qu prefix` 可以按照前缀的方式搜索用户信息。
 
